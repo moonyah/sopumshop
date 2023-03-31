@@ -1,0 +1,45 @@
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: rgb(233, 147, 147);
+  }
+
+.login-wrapper{
+  font-size: 2rem;
+  padding: 3rem 8rem;
+  border-radius: 1rem;
+}
+
+.login-wrapper > h2{
+    font-size: 50px;
+    color: rgb(153, 77, 77);
+    margin-bottom: 20px;
+}
+#login-form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+#login-form > input:focus{
+    outline: none;
+}
+#login-form > input::placeholder{
+    color: #D2D2D2;
+}
+#login-form > input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: rgb(180, 52, 84);
+    margin-top: 20px;
+}
+#login-form > label{
+    color: #3f1a1a;
+    font-size: 15px;
+    font-weight: bold;
+}

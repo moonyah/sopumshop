@@ -27,6 +27,9 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
+.login-menu .login{
+  color: white;
+}
 
 .gnb-menu {
     padding: 20px;    
